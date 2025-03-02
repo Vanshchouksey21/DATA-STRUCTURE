@@ -1,8 +1,10 @@
+
+
 #include<iostream>
 #include<array>
-#include<algorithm>
 using namespace std ; 
-int main (){
+int main()
+{
     array <int , 5> arr{1,8,69,4,4};
     sort(arr.begin(),arr.end());
 

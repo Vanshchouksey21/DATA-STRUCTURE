@@ -1,0 +1,22 @@
+
+
+// vector
+
+
+//  for insertion --1) push_back();
+//  deletion -- 2) pop_back();
+//  sort -- 3) arr.sort();
+//  for delete all 4) arr.clear();
+//  first element 5) vec.begin();
+//  last emenet 6) vec.end();
+//  for maximum value --- *max_element(vec.begin(), vec.end());
+//  for minium vale ---- *min_element(vec.begin() , vec.end());
+
+
+
+
+// iterator
+
+
+
+
