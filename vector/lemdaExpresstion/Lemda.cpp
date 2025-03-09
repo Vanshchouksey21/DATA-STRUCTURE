@@ -19,13 +19,13 @@ int main (){
 // cout<<endl ;
 
 
-//     auto k =[](int a ){return a*a ; };
-//     cout<<k(6);
+    // auto k =[](int a ){return a*a ; };
+    // cout<<k(6);
 
     vector<int>v={4,2,3,5,1};
 
     // inbuild for desending 
-    sort(v.begin() , v.end() , greater<int>());
+    // sort(v.begin() , v.end() , greater<int>());
 
 
 // lemba function use 
