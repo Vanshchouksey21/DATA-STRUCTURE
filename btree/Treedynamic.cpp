@@ -1,128 +1,91 @@
-// self Reference Class and self Reference structure
-
-/*
-
-1.Self-Referential Class
-
-A self - referential class is a class that contains a member(often a pointer or reference) that refers to another object of the same class.This is commonly used in scenarios like implementing linked data structures(e.g., linked lists, binary trees).
-
-
-
-
-
-2.Self-Referential Structure
-
-Similarly, in structures, a self-referential structure contains a member that refers to the same structure type. This is widely used in C and C++ for implementing data structures.
-
-*/
-
-
-
 #include<iostream>
+using namespace std ;
 
-using namespace std;
-
-class node{
-
-public: 
-
+class node
+{
+    public:
     int data;
+    node *left;
+    node *right;
 
-    node *left,*right;
-
-public:
-
-    node(int x){
-
-        data=x;
-
-        left=right=nullptr;
+    public:
+    node( int d)
+    {
+        data = d;
+        left=NULL;
+        right=NULL;
 
     }
-
-
-
 };
-node *create(node *root){
-    int val ; 
-    if(val ==-1){
+
+
+node *create(node *root)
+{
+    int d;
+    cout<<"enter the data of the node ";
+    cin>>d;
+
+    if(d==-1)
+    {
         return NULL;
     }
-    root = new node (d);
-    cout<<"enter value of left for d"<<"\n";
+
+    root= new node(d);
+
+    cout<<"\n"<<"enter the data in the left of "<<d<<"\n";
     root->left=create(root->left);
-    cout<<"enter value of right for d"<<"\n";
+
+    cout<<"\n"<<"enter the data in the right of "<<d<<"\n";
     root->right=create(root->right);
+
 }
 
-void perorder(node *root){
-
-    if(root==nullptr){
-
+void preorder(node * root)
+{
+    if(root==NULL)
+    {
         return;
-
     }
-
-    cout<<root->data<<" ";
-
-    perorder(root->left);
-
-    perorder(root->right);
-
+    cout<<root->data<<"\t";
+    preorder(root->left);
+    preorder(root->right);
 }
 
-void postorder(node *root){
+void inorder(node *root)
+{
+    if(root==NULL)
+    {
+        return;
+    }
+    inorder(root->left);
+    cout<<root->data<<"\t";
+    inorder(root->right);
+}
 
-    if(root==nullptr)
-
-    return ;
+void postorder(node *root)
+{
+    if(root==NULL)
+    {
+        return;
+    }
 
     postorder(root->left);
-
     postorder(root->right);
-
-    cout<<root->data<<" ";
-
+    cout<<root->data<<"\t";
 }
+int main()
+{
+    node *root=NULL;
 
-void inorder(node * root){
+    root=create(root);
 
-    if(root==nullptr){
+    cout<<"the preorder is = "<<"\n";
+    preorder(root);
 
-        return ;
+    cout<<"\n"<<"the inorder is = "<<"\n";
+    inorder(root);
 
-    }
-
-    inorder(root->left);
-
-    cout<<root->data<<" ";
-
-    inorder(root->right);
-
-}
-
-
-
-int main(){
-    node *root = NULL ;
-    
-
- node *root=new node(10);
-
- root->left=new node(20);
-
- root->right=new node(30);
-
-
-perorder(root);
-
-
-cout<<endl;
-
-postorder(root);
-cout<<endl;
-
-
-inorder(root);
+    cout<<"\n"<<"the postorder is = "<<"\n";
+    postorder(root);
 
 }
