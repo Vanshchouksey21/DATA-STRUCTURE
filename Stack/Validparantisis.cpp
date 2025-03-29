@@ -14,8 +14,9 @@ bool isvalid (string s){
                 stk.pop();
             }
             else{
-                r=false;
-                break;
+                // r=false;
+                // break;
+                return false ; 
             }
             
         }
@@ -24,8 +25,9 @@ bool isvalid (string s){
                 stk.pop();
             }
             else{
-                r=false;
-                break;
+                // r=false;
+                // break;
+                return false ; 
             }       
     }
     else if(s[i]==')'){
@@ -33,8 +35,9 @@ bool isvalid (string s){
             stk.pop();
         }
         else{
-            r=false;
-            break;
+        //     r=false;
+        //     break;
+        return false ; 
         }
     }
 }
@@ -44,6 +47,7 @@ if(r && stk.empty()){
 else{
     return false ;
 }
+
 }
 int main(){
     string s ;

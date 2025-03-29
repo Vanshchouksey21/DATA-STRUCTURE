@@ -100,10 +100,16 @@ int main(){
 
  root->right=new node(30);
 
-
+cout<<"pre"<<endl;
 perorder(root);
+cout<<endl;
+cout<<"post"<<endl;
+
 
 postorder(root);
+cout<<endl;
+
+cout<<"in"<<endl;
 
 inorder(root);
 

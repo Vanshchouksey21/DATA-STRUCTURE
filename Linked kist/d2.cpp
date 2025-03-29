@@ -67,14 +67,14 @@ cout<<endl;
 
 
 
-// for search 
-auto t = find(l1.begin() , l1.end() ,6);
-if(t!=l1.end()){
-    cout<<"found = "<<*t;
-}
-else{
-    cout<<"not found";
-}
+// // for search 
+// auto t = find(l1.begin() , l1.end() ,6);
+// if(t!=l1.end()){
+//     cout<<"found = "<<*t;
+// }
+// else{
+//     cout<<"not found";
+// }
 
 
   

@@ -7,29 +7,54 @@
 
     #include<iostream>
 using namespace std ;
-class node {
-    public:
+// class node {
+//     public :
+//     int data ; 
+//     node *l , *r ;
+
+//    public :node( int d){
+//     data = d ;
+//     l = NULL , r = NULL;
+//    }
+// };
+// int main (){
+
+//     node *root = new node (20) ; 
+//     root->l = new node (56) ; 
+//     root->r = new node (10) ; 
+
+ 
+//    cout<<root->data<<" \n";
+//    cout<<root->l->data<<" \n";
+//    cout<<root->r->data;
+
+
+
+
+// }
+
+
+class node{
+    public :
     int data ; 
-    node *l;
-    node *r;
-    public :node (int d)
-    {
-        data = d ;
-        l=NULL;
-        r=NULL;
+    node *l , *r ;
+     public : node ( int d ){
+        data = d ; 
+        l = NULL ;
+        r = NULL ;
+        
+     }
+    
+    
+    };
+    int main (){
+    
+        node *root = new node (20 );
+        root->l = new node (10);
+        root->r = new node (30);
+    
+        cout<<root->data;
+        cout<<root->l->data;
+        cout<<root->r->data;
+    
     }
-
-};
-int main (){
-
-   node *root = new node(10);
-   root->l = new node(20);
-   root->r = new node(30);
-   cout<<root->data<<" \n";
-   cout<<root->l->data<<" \n";
-   cout<<root->r->data;
-
-
-
-
-}

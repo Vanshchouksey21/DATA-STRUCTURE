@@ -11,6 +11,7 @@ void occur (string s ){
     for( auto p : mp){
         cout<<p.first <<" " << p.second<< "\n";
     }
+    
 }
 int main(){
     string s ="welcome";
