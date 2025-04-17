@@ -14,6 +14,7 @@ int main() {
     multi.insert(46);
     multi.insert(76);
     multi.insert(76);
+    multi.insert(76);
  
     
     
