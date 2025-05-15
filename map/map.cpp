@@ -15,7 +15,7 @@ using namespace std ;
 int main (){
 
 
-    map<int , string>student {{101 , "amit" } , {102 , "vansh"} , {21 , "vaibhav"}};
+    // map<int , string>student {{101 , "amit" } , {102 , "vansh"} , {21 , "vaibhav"}};
 
 
 
