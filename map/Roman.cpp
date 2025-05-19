@@ -22,7 +22,4 @@ int main(){
     cout<<"Enter roman no :";
     cin >>s;
     cout <<rt(s);
-    cout <<rt(s);
-    cout <<rt(s);
-    cout <<rt(s);
 }

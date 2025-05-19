@@ -9,7 +9,7 @@ int main(){
 
     vector<int>vec;
     int n , b ; 
-    cout << "enter the size of a vector";
+    cout << "enter the size of a vector :";
     cin >>n ;
     cout<<"Enter the values :";
     for(int i = 0 ; i < n ; ++i ){
@@ -23,7 +23,10 @@ int main(){
 
     }
      vector<int>::iterator vansh = vec.begin();
+     vector<int>::iterator vansh1 = vec.end();
      vec.insert(vansh+1 , 4);
+     vec.insert(vansh1-1,9);
+     cout<<endl;
      for(auto p :vec){
         cout<<p<<" ";
 
