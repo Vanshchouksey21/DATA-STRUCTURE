@@ -25,7 +25,6 @@ int main(){
      vector<int>::iterator vansh = vec.begin();
      vector<int>::iterator vansh1 = vec.end();
      vec.insert(vansh+1 , 4);
-     vec.insert(vansh1-1,9);
      cout<<endl;
      for(auto p :vec){
         cout<<p<<" ";
