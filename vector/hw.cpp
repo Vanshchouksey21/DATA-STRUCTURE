@@ -46,8 +46,6 @@ int main()
             cout << "no second highest" << endl;
             cout << "no second highest" << endl;
             cout << "no second highest" << endl;
-            cout << "no second highest" << endl;
-        }
     }
     return 0;
 }
