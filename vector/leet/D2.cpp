@@ -6,9 +6,8 @@ using namespace std;
 
 vector<int> pivotArray(vector<int>& nums, int pivot) {
     vector<int> less, equal, greater;
-    vector<int> less, equal, greater;
-    vector<int> less, equal, greater;
-    vector<int> less, equal, greater;
+
+
 
     
     for (int num : nums) {
