@@ -39,6 +39,9 @@ int main (){
     abc.insert({109 , "vansh"});
     abc.insert({101 , "sumit"});
     abc.insert({107 , "amit"});
+    abc.insert({107 , "amit"});
+    abc.insert({107 , "amit"});
+    abc.insert({107 , "amit"});
     abc.insert({106 , "ans"});
   
     cout << "Student Map (Sorted by Key):\n";
