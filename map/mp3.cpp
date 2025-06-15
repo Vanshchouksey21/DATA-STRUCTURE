@@ -44,7 +44,6 @@ int main (){
         cout<<"not found" ;
     }
     cout<<"map all after deletion "<<endl;
-    cout<<"map all after deletion "<<endl;
     for(auto p : mp){
         cout<<p.first<<" "<<p.second<<endl;
     }
