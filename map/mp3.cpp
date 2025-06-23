@@ -42,10 +42,11 @@ int main (){
     else{
         cout<<"not found" ;
         cout<<"not found" ;
+        cout<<"not found" ;
+        cout<<"not found" ;
+        cout<<"not found" ;
     }
-    cout<<"map all after deletion "<<endl;
-    cout<<"map all after deletion "<<endl;
-    cout<<"map all after deletion "<<endl;
+    cout<<"map all after deletion "<<endl;Z
     for(auto p : mp){
         cout<<p.first<<" "<<p.second<<endl;
     }
