@@ -41,9 +41,7 @@ int main (){
     }
     else{
         cout<<"not found" ;
-        cout<<"not found" ;
-        cout<<"not found" ;
-        cout<<"not found" ;
+        
         cout<<"not found" ;
     }
     cout<<"map all after deletion "<<endl;Z
