@@ -40,11 +40,10 @@ int main (){
        mp.erase(k2);
     }
     else{
-        cout<<"not found" ;
-        
+     
         cout<<"not found" ;
     }
-    cout<<"map all after deletion "<<endl;Z
+    cout<<"map all after deletion "<<endl;
     for(auto p : mp){
         cout<<p.first<<" "<<p.second<<endl;
     }
