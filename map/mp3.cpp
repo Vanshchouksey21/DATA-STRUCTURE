@@ -5,6 +5,7 @@ int main (){
     map<int , string>mp ;
     int n ;
     cout<<"How many records do you want to enter :" ;
+    cout<<"How many records do you want to enter :" ;
     cin>>n;
     for(int i = 0 ; i < n ; ++i){
         int roll ; 
