@@ -1,7 +1,7 @@
-#include<iostream>
-#include<list>
-#include<algorithm>
-// #include<bits/stdc++.h>
+// #include<iostream>
+// #include<list>
+// #include<algorithm>
+#include<bits/stdc++.h>
 
 using namespace std ;
 int main(){
@@ -84,4 +84,22 @@ cout<<endl;
 
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// spa base fire base 
