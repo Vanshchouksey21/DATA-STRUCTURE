@@ -1,7 +1,7 @@
 // #include<iostream>
 // #include<list>
 // #include<algorithm>
-// #include<bits/stdc++.h> 
+#include<bits/stdc++.h> 
 
 using namespace std ;
 int main(){
@@ -64,7 +64,6 @@ for( auto p:l1){
     cout<<p<<" ";
 }
 cout<<endl;
-
 
 
 // // for search 
