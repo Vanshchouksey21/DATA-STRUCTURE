@@ -6,13 +6,13 @@
 using namespace std ;
 int main(){
     list<int>l1;
-    l1.push_front(18);
-    l1.push_front(5);
-    l1.push_front(11);
-    l1.push_front(4);
-    l1.push_front(18);
-    l1.push_front(45);
-    l1.push_front(6);
+    // l1.push_front(18);
+    // l1.push_front(5);
+    // l1.push_front(11);
+    // l1.push_front(4);
+    // l1.push_front(18);
+    // l1.push_front(45);
+    // l1.push_front(6);
 
 for( auto p:l1){
     cout<<p<<" ";
