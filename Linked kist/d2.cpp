@@ -1,5 +1,5 @@
-    // #include<iostream>
-    // #include<list>
+    #include<iostream>
+    #include<list>
     #include<algorithm>
     // #include<bits/stdc++.h> 
 
