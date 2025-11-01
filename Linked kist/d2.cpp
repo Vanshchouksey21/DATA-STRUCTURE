@@ -1,6 +1,6 @@
     // #include<iostream>
     // #include<list>
-    #include<algorithm>
+    // #include<algorithm>
     // #include<bits/stdc++.h> 
 
 using namespace std ;
